@@ -1,0 +1,39 @@
+/*********************TAG SELECTORS********************/
+body
+{
+  background-color:#d4ebd0;
+}
+h1
+{
+  color: #00909e;
+}
+h3
+{
+  color: #00909e;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 8%;
+  border-color:  grey;
+
+}
+
+a {
+  background-color:#d4ebd0;
+  transition: background-color .6s;
+}
+a:hover {
+  height: 10px;
+  background-color: powderblue;
+}
+
+
+
+/*********************CLASS SELECTORS*******************/
+img
+{
+  border-radius: 200px 20px / 100px;
+  width: 300px;
+}
