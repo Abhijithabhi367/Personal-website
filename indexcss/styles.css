@@ -1,6 +1,11 @@
 body
 {
 background-color:#d4ebd0;
+margin: 0;
+
+/**background-color: #90b8bd;*/
+font-family: 'Charmonman', cursive;
+margin-top: 200px;
 }
 h1
 {
@@ -22,6 +27,21 @@ width: 8%;
 border-color:  grey;
 
 }
+.abi
+{
+border-radius: 200px 20px / 100px;
+width: 300px;
+}
+
+.abhijith
+{
+  padding: 0;
+}
+.container
+{
+  height: 150px;
+}
+/*********************CLASS SELECTORS*******************/
 
 .link {
 background-color:#d4ebd0;
@@ -34,45 +54,8 @@ background-color: powderblue;
 
 
 
-/*********************CLASS SELECTORS*******************/
-img
-{
-border-radius: 200px 20px / 100px;
-width: 300px;
-}
-.abhijith
-{
-  height: 200px;
-  width: 200px;
-  background-color: #7289da;
-    padding: 20px;
-}
-.tank
-{
-  height: 200px;
-  width: 200px;
-  background-color: #00a8cc;
-  border-style:solid;
-  border-width: 20px;
+/****************contactanimation***************/
 
-
-  }
-  .cc
-  {
-    height: 200px;
-    width: 200px;
-    background-color: #08f4cc;
-    border-style: solid;
-    border-width:10px;
-
-
-    }
-.fish
-{
-
-  height: 50px;
-  width:50px;
-}
 .wrapper {
   display: flex;
   align-items: center;
@@ -131,4 +114,46 @@ width: 300px;
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/**************************/
+
+
+.mountain
+{
+  visibility: hidden;
+}
+p
+{
+  margin: 0;
+}
+.abhijith
+{
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+.web
+{
+  font-family: 'Montez', cursive;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+.cloud2
+{
+  position: absolute;
+  left: auto;
+  right: auto;
+}
+.cloud1
+{
+position: absolute;
+left: 1250px;
+top: 60px;
+}
+.mountain
+{
+  visibility: hidden;
 }
