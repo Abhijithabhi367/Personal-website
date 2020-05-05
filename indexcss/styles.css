@@ -1,11 +1,9 @@
 body
 {
-background-color:#d4ebd0;
 margin: 0;
 
 /**background-color: #90b8bd;*/
 font-family: 'Charmonman', cursive;
-margin-top: 200px;
 }
 h1
 {
@@ -31,20 +29,18 @@ border-color:  grey;
 {
   visibility: hidden;
 }
-.abi
-{
-border-radius: 200px 20px / 100px;
-width: 300px;
-}
-
 .abhijith
 {
   padding: 0;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    margin-bottom: 0;
 }
-.container
-{
-  height: 150px;
-}
+
+
+
+
 /*********************CLASS SELECTORS*******************/
 
 .link {
@@ -60,6 +56,62 @@ background-color: powderblue;
 
 /****************contactanimation***************/
 
+
+
+p
+{
+  margin: 0;
+}
+.aaaa
+{
+  padding-top: 100px;
+}
+.container
+{
+  background-color: #90b8bd;
+  text-align: center;
+}
+.photo1
+ {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+/**  border-radius: 200px 20px / 100px;     ********use this to make custom shape **/
+}
+.for
+{
+  position: relative;
+  top: 45px;
+  left: 45px;
+  height: 100px;
+  width: 100px;
+}
+
+
+.web
+{
+  font-family: 'Montez', cursive;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+.cloud2
+{
+  position: absolute;
+  left: auto;
+  right: auto;
+}
+.cloud1
+{
+position: absolute;
+left: 575px;
+top: 60px;
+}
+
+
+/********************************************************************************/
 .wrapper {
   display: flex;
   align-items: center;
@@ -123,41 +175,4 @@ background-color: powderblue;
 /**************************/
 
 
-.mountain
-{
-  visibility: hidden;
-}
-p
-{
-  margin: 0;
-}
-.abhijith
-{
-  margin-top: 0;
-  font-family: 'Sacramento', cursive;
-  font-size: 60px;
-  margin-bottom: 0;
-}
-.web
-{
-  font-family: 'Montez', cursive;
-  margin-bottom: 0;
-  margin-top: 0;
-
-}
-.cloud2
-{
-  position: absolute;
-  left: auto;
-  right: auto;
-}
-.cloud1
-{
-position: absolute;
-left: 1250px;
-top: 60px;
-}
-.mountain
-{
-  visibility: hidden;
-}
+/**********************************************************************************/
