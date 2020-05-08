@@ -7,7 +7,7 @@ font-family: 'Jost', sans-serif;
 }
 h1
 {
-color: #00909e;
+color: #00a3b3;
 }
 h2
 {
@@ -43,14 +43,7 @@ border-color:  grey;
 
 /*********************CLASS SELECTORS*******************/
 
-.link {
-background-color:#d4ebd0;
-transition: background-color .6s;
-}
-.link:hover {
-height: 10px;
-background-color: powderblue;
-}
+
 
 
 
@@ -176,3 +169,11 @@ top: 60px;
 
 
 /**********************************************************************************/
+.link{
+  color:#191a19;
+  transition:.6s;
+  }
+.link:hover {
+  height: 10px;
+  color: #00a4eb;
+}
