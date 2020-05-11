@@ -59,7 +59,7 @@ p
 {
   padding-top: 100px;
 }
-.container
+.container1
 {
   background-color: #90b8bd;
   text-align: center;
@@ -112,7 +112,7 @@ top: 60px;
   height: 20vh;
 }
 
-.btn:link, .btn:visited {
+.btn1:link, .btn:visited {
   padding: 1rem 2.4rem;
   border-radius: 10rem;
   text-decoration: none;
@@ -122,15 +122,15 @@ top: 60px;
   font-size: 1.6rem;
   transition: all 0.2s;
 }
-.btn:hover {
+.btn1:hover {
   transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 2rem rgba(110, 110, 110, 0.2);
 }
-.btn:hover::after {
+.btn1:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
-.btn::after {
+.btn1::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -142,16 +142,20 @@ top: 60px;
   z-index: -1;
   transition: all 0.4s;
 }
-.btn--white {
-  background-color: #bbb;
-  color: #777;
+.btn1--white {
+  background-color: #dddddd;
+  color: #a6a6a6;
 }
-.btn--white::after {
-  background-color: #bbb;
+.btn1--white::after {
+  background-color: #c7c7c7;
 }
-.btn--animated {
+.btn1--animated {
   animation: MoveInFromBottom .5s ease-out .75s;
   animation-fill-mode: backwards;
+}
+.btn1
+{
+  color: black;
 }
 
 @keyframes MoveInFromBottom {
@@ -170,10 +174,13 @@ top: 60px;
 
 /**********************************************************************************/
 .link{
-  color:#191a19;
+  color:#bebebe;
   transition:.6s;
   }
 .link:hover {
   height: 10px;
-  color: #00a4eb;
+  color: #ffffff;
+}
+.button{
+  
 }
