@@ -105,7 +105,7 @@ top: 60px;
 
 
 /********************************************************************************/
-.wrapper {
+/*     .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,20 +167,15 @@ top: 60px;
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-/**************************/
-
+}                  */
 
 /**********************************************************************************/
-.link{
-  color:#bebebe;
-  transition:.6s;
-  }
-.link:hover {
-  height: 10px;
-  color: #ffffff;
+.ddaarrkk{
+  color: #000;
 }
-.button{
-  
+.ddaarrkk :hover{
+  color: #000;
+}
+.ddaarrkk::after{
+  color: #000;
 }
