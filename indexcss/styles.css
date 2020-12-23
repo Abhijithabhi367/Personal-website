@@ -7,15 +7,15 @@ font-family: 'Jost', sans-serif;
 }
 h1
 {
-color: #00a3b3;
+color: #292929;
 }
 h2
 {
-color: #00909e;
+color:  #292929;
 }
 h3
 {
-color: #00909e;
+color:  #292929;
 }
 hr{
 border-style: none;
@@ -38,7 +38,9 @@ border-color:  grey;
     margin-bottom: 0;
 }
 
-
+.link {
+  color: #292929;
+}
 
 
 /*********************CLASS SELECTORS*******************/
@@ -61,7 +63,6 @@ p
 }
 .container1
 {
-  background-color: #90b8bd;
   text-align: center;
 }
 .photo1
@@ -88,7 +89,7 @@ p
   font-family: 'Montez', cursive;
   margin-bottom: 0;
   margin-top: 0;
-
+  margin-bottom: 50px;
 }
 .cloud2
 {
@@ -181,4 +182,15 @@ top: 60px;
 }
 .margin {
   width: 550px;
+  padding-bottom: 200px;
+}
+.elect {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  left: 0;
+  right: 0;
+  margin-left: 1%;
+  margin: 1px 1px 1px 1px;
+  z-index: -1;
 }
