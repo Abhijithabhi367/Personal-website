@@ -24,7 +24,7 @@ hr {
   visibility: hidden;
 }
 .abhijith {
-  padding: 0;
+  padding: 10% 0 0 0;
   margin-top: 0;
   font-family: "Sacramento", cursive;
   font-size: 60px;
@@ -95,6 +95,7 @@ p {
   margin-left: 1%;
   margin: 1px 1px 1px 1px;
   z-index: -1;
+  width: 100%;
 }
 .copy {
   opacity: 0.5;
@@ -122,9 +123,6 @@ p {
 }
 
 @media (max-width: 1028px) {
-  .elect {
-    width: 100%;
-  }
   .aaaa {
     padding-top: 3%;
   }
