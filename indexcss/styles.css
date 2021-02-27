@@ -24,7 +24,7 @@ hr {
   visibility: hidden;
 }
 .abhijith {
-  padding: 10% 0 0 0;
+  padding: 8% 0 0 0;
   margin-top: 0;
   font-family: "Sacramento", cursive;
   font-size: 60px;
@@ -103,17 +103,17 @@ p {
 
 #footer {
   text-align: center;
-  padding: 6% 15% 6%;
+  padding: 4% 15% 4%;
 }
 .ico {
-  padding: 0 0.5% 0.5%;
+  padding: 0 0.85% 0.85%;
   opacity: 0.8;
 }
 .ico2 {
-  color: rgb(104, 93, 255);
+  color: rgb(78, 125, 255);
 }
 .ico3 {
-  color: rgb(255, 93, 193);
+  color: rgb(242, 93, 255);
 }
 .ico4 {
   color: rgb(236, 37, 37);
@@ -132,6 +132,23 @@ p {
   .margin {
     width: 550px;
     padding-bottom: 0%;
+  }
+  .abhijith {
+    padding: 4% 0 0 0;
+    margin-top: 0;
+    font-family: "Sacramento", cursive;
+    font-size: 105px;
+    margin-bottom: 0;
+  }
+  .web {
+    font-family: "Montez", cursive;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 275%;
+  }
+  #footer {
+    padding-top: 60%;
   }
 }
 /* end of @media */
