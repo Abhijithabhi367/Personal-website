@@ -163,18 +163,10 @@ p {
 .copy {
   opacity: 0.5;
 }
-#footer {
-  text-align: center;
-  padding: 6% 15% 6%;
-}
-.ico {
-  padding: 0 0.5% 0.5%;
-  opacity: 0.8;
-}
 
 @media (max-width: 1028px) {
   .elect {
-    width: 70%;
+    width: 100%;
   }
   .aaaa {
     padding-top: 3%;
@@ -188,3 +180,23 @@ p {
   }
 }
 /* end of @media */
+#footer {
+  text-align: center;
+  padding: 6% 15% 6%;
+}
+.ico {
+  padding: 0 0.5% 0.5%;
+  opacity: 0.8;
+}
+.ico2 {
+  color: rgb(104, 93, 255);
+}
+.ico3 {
+  color: rgb(255, 93, 193);
+}
+.ico4 {
+  color: rgb(252, 32, 32);
+}
+.ico1 {
+  color: rgb(43, 43, 43);
+}
