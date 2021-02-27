@@ -1,81 +1,62 @@
-body
-{
-margin: 0;
+body {
+  margin: 0;
 
-/**background-color: #90b8bd;*/
-font-family: 'Jost', sans-serif;
+  /**background-color: #90b8bd;*/
+  font-family: "Jost", sans-serif;
 }
-h1
-{
-color: #292929;
+h1 {
+  color: #292929;
 }
-h2
-{
-color:  #292929;
+h2 {
+  color: #292929;
 }
-h3
-{
-color:  #292929;
+h3 {
+  color: #292929;
 }
-hr{
-border-style: none;
-border-top-style: dotted;
-border-width: 10px;
-width: 8%;
-border-color:  grey;
-
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 8%;
+  border-color: grey;
 }
-.akl
-{
+.akl {
   visibility: hidden;
 }
-.abhijith
-{
+.abhijith {
   padding: 0;
-    margin-top: 0;
-    font-family: 'Sacramento', cursive;
-    font-size: 60px;
-    margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 60px;
+  margin-bottom: 0;
 }
 
 .link {
   color: #292929;
 }
 
-
 /*********************CLASS SELECTORS*******************/
-
-
-
-
 
 /****************contactanimation***************/
 
-
-
-p
-{
+p {
   margin: 0;
 }
-.aaaa
-{
+.aaaa {
   padding-top: 100px;
 }
-.container1
-{
+.container1 {
   text-align: center;
 }
-.photo1
- {
+.photo1 {
   display: inline-block;
   width: 100px;
   height: 100px;
   overflow: hidden;
   border-radius: 50%;
-/**  border-radius: 200px 20px / 100px;     ********use this to make custom shape **/
+  /**  border-radius: 200px 20px / 100px;     ********use this to make custom shape **/
 }
-.for
-{
+.for {
   position: relative;
   top: 45px;
   left: 45px;
@@ -83,27 +64,12 @@ p
   width: 100px;
 }
 
-
-.web
-{
-  font-family: 'Montez', cursive;
+.web {
+  font-family: "Montez", cursive;
   margin-bottom: 0;
   margin-top: 0;
   margin-bottom: 50px;
 }
-.cloud2
-{
-  position: absolute;
-  left: auto;
-  right: auto;
-}
-.cloud1
-{
-position: absolute;
-left: 575px;
-top: 60px;
-}
-
 
 /********************************************************************************/
 /*     .wrapper {
@@ -171,13 +137,13 @@ top: 60px;
 }                  */
 
 /**********************************************************************************/
-.ddaarrkk{
+.ddaarrkk {
   color: #000;
 }
-.ddaarrkk :hover{
+.ddaarrkk :hover {
   color: #000;
 }
-.ddaarrkk::after{
+.ddaarrkk::after {
   color: #000;
 }
 .margin {
@@ -194,3 +160,31 @@ top: 60px;
   margin: 1px 1px 1px 1px;
   z-index: -1;
 }
+.copy {
+  opacity: 0.5;
+}
+#footer {
+  text-align: center;
+  padding: 6% 15% 6%;
+}
+.ico {
+  padding: 0 0.5% 0.5%;
+  opacity: 0.8;
+}
+
+@media (max-width: 1028px) {
+  .elect {
+    width: 70%;
+  }
+  .aaaa {
+    padding-top: 3%;
+  }
+  .lg-head {
+    text-align: center;
+  }
+  .margin {
+    width: 550px;
+    padding-bottom: 0%;
+  }
+}
+/* end of @media */
