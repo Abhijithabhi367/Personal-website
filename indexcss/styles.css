@@ -38,10 +38,6 @@ hr {
 /*********************CLASS SELECTORS*******************/
 
 /****************contactanimation***************/
-
-p {
-  margin: 0;
-}
 .aaaa {
   padding-top: 100px;
 }
@@ -68,7 +64,6 @@ p {
   font-family: "Montez", cursive;
   margin-bottom: 0;
   margin-top: 0;
-  margin-bottom: 50px;
 }
 
 /**********************************************************************************/
@@ -84,7 +79,7 @@ p {
 }
 .margin {
   width: 550px;
-  padding-bottom: 200px;
+  padding-top: 3.5%;
 }
 .elect {
   position: absolute;
@@ -103,7 +98,7 @@ p {
 
 #footer {
   text-align: center;
-  padding: 4% 15% 4%;
+  padding: 4% 5% 4%;
 }
 .ico {
   padding: 0 0.85% 0.85%;
@@ -121,6 +116,15 @@ p {
 .ico1 {
   color: rgb(43, 43, 43);
 }
+.table {
+  padding-left: 30px;
+}
+.colorblock {
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(255, 239, 224);
+  margin-top: 50px;
+}
 
 @media (max-width: 1028px) {
   .aaaa {
@@ -131,24 +135,19 @@ p {
   }
   .margin {
     width: 550px;
-    padding-bottom: 0%;
+    padding-top: 3.5%;
   }
   .abhijith {
-    padding: 4% 0 0 0;
-    margin-top: 0;
+    padding: 2% 0 0 0;
     font-family: "Sacramento", cursive;
     font-size: 105px;
-    margin-bottom: 0;
   }
   .web {
     font-family: "Montez", cursive;
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 50px;
     font-size: 275%;
   }
   #footer {
-    padding-top: 60%;
+    padding-top: 5%;
   }
 }
 /* end of @media */
