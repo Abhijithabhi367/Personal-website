@@ -28,7 +28,7 @@ hr {
   font-family: "Sacramento", cursive;
   font-size: 150px;
   margin-bottom: 0;
-  color: rgba(0, 163, 204, 0.555);
+  color: rgba(0, 0, 0, 0.767);
 }
 
 .link {
@@ -122,14 +122,11 @@ hr {
 .colorblock {
   width: 100%;
   height: 200%;
-  background-color: rgb(224, 240, 255);
+  background-color: rgba(134, 134, 134, 0.151);
   margin-top: 0px;
   padding-bottom: 30px;
 }
-.space {
-width: 100%;
-height: 500px;
-}
+
 
 @media (max-width: 1028px) {
   .aaaa {
@@ -146,7 +143,6 @@ height: 500px;
     padding: 2% 0 0 0;
     font-family: "Sacramento", cursive;
     font-size: 120px;
-    color: rgba(0, 0, 0, 0.767);
   }
   .web {
     font-family: "Montez", cursive;
@@ -155,5 +151,9 @@ height: 500px;
   #footer {
     padding-top: 5%;
   }
+  .space {
+    width: 100%;
+    height: 500px;
+    }
 }
 /* end of @media */
