@@ -16,15 +16,14 @@ h3 {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-width: 10px;
-  width: 8%;
+  border-width: 20px;
+  width: 95%;
   border-color: grey;
 }
 .akl {
   visibility: hidden;
 }
 .abhijith {
-  padding: 8% 0 0 0;
   margin-top: 0;
   font-family: "Sacramento", cursive;
   font-size: 150px;
@@ -40,10 +39,7 @@ hr {
 
 /****************contactanimation***************/
 .aaaa {
-  padding-top: 100px;
-}
-.container1 {
-  text-align: center;
+  padding-top: 90px;
 }
 .photo1 {
   display: inline-block;
@@ -65,6 +61,8 @@ hr {
   font-family: "Montez", cursive;
   margin-bottom: 0;
   margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /**********************************************************************************/
@@ -81,6 +79,7 @@ hr {
 .margin {
   width: 550px;
   padding-top: 3.5%;
+  padding-bottom: 30px;
 }
 .elect {
   position: absolute;
@@ -122,21 +121,26 @@ hr {
 }
 .colorblock {
   width: 100%;
-  height: 450px;
+  height: 200%;
   background-color: rgb(224, 240, 255);
-  margin-top: 50px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+.space {
+width: 100%;
+height: 500px;
 }
 
 @media (max-width: 1028px) {
   .aaaa {
-    padding-top: 3%;
+    padding-top: 2%;
   }
   .lg-head {
     text-align: center;
   }
   .margin {
-    width: 550px;
-    padding-top: 6%;
+    width: 500px;
+    padding-top: 4%;
   }
   .abhijith {
     padding: 2% 0 0 0;
@@ -146,7 +150,7 @@ hr {
   }
   .web {
     font-family: "Montez", cursive;
-    font-size: 275%;
+    font-size: 240%;
   }
   #footer {
     padding-top: 5%;
