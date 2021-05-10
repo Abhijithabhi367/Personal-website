@@ -128,7 +128,9 @@ hr {
   margin-top: 0px;
   padding-bottom: 30px;
 }
-
+.resume {
+  text-align: right;
+}
 
 @media (max-width: 1028px) {
   .aaaa {
